@@ -1,7 +1,7 @@
 # Core pipeline dependencies
 pyyaml>=6.0.4
 pydantic>=2.0.0
-pytest>=7.0.0
+pytest>=9.2.0
 
 # Migration Change 06-Nov-2026 - MJ-06 NBO Handset Top3SKUs (handset_nbo/): job environments Default (v2) + Default_v5 install this file.
 #   Prod job task Check_Trade_Table_Daily had cluster libraries loguru==0.7.2 + openpyxl==3.1.5 (pins kept);
